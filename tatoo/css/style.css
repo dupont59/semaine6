@@ -1,16 +1,105 @@
+html { 
+  margin:0;
+  padding:0;
+  background: url(../img/fond.jpeg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
 
 
+/*
+*
+*#######################################header################
+*
+*/
+span{
+	color: red;
+}
 
+.titre{
+border: 1px solid black;
+width: 300px;
+height: 177px;
+margin-left: 15px;
+}
 
+h1{
+text-align: center;
+}
 
+.titrediv{
+border: 1px solid;
+width: 300px;
+height: 135px;	
+}
+/*
+*
+*
+####################################image####################
+*
+*
+*/
+.image{
+width: 300px;
+height: 135px;
+}
 
-
-
-
-@media (min-width: 750px){
-
+.image img{
+display: inline-block;	
+}
+.un{
 
 }
+
+.deux{
+
+}
+
+.trois{
+	
+}
+/*
+*
+*
+################################footer####################*/
+
+
+.footer{
+
+}
+
+.footerli{
+	border: 1px solid;
+	width: 300px;
+	height: 55px;
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+.footerli img{
+	height: 30px;
+    width: 30px;
+}
+
+
+li{
+list-style-type: none;
+}
+
+
+
+@media (min-width: 750px){ 
+.titre{
+border: 1px solid black;
+width: 750px;
+height: 177px;
+margin-left: 15px;
+
+}
+}
+
 
 
 
