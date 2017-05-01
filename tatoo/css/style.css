@@ -40,23 +40,59 @@ height: 135px;
 *
 */
 .image{
-width: 300px;
-height: 135px;
+
 }
 
 .image img{
-display: inline-block;	
+	
 }
 .un{
-
+width: 160px;
+position: relative;
+left: 16px;
+top: 60px;
+height: 130px
 }
 
 .deux{
-
+position: relative;
+left: 20px;
+top: 59px;
+width: 160px;
+height: 127px;
 }
 
 .trois{
-	
+width: 160px;
+height: 120px;
+position: relative;
+top: 43px;
+left: 17px;
+}
+
+.quatre{
+width: 158px;
+position: relative;
+top: 65px;
+height: 142px;
+left: 21px;
+}
+
+.cinq{
+width: 160px;
+position: relative;
+left: 18px;
+height: 130px;
+top: 70px;
+}
+
+.six{
+width: 160px;
+height: 130px;
+position: relative;
+top: 70px;
+left: 20px;
+}
 }
 /*
 *
@@ -69,14 +105,13 @@ display: inline-block;
 }
 
 .footerli{
-	border: 1px solid;
-	width: 300px;
-	height: 55px;
-	position: absolute;
-	display: flex;
-	justify-content: space-around;
-	margin-left: 10px;
-	padding-left: 10px;
+border: 1px solid;
+width: 300px;
+height: 55px;
+position: relative;
+top: 69px;
+
+	
 }
 .footerli img{
 	height: 30px;
@@ -86,6 +121,8 @@ display: inline-block;
 
 li{
 list-style-type: none;
+display: inline-block;
+margin-left: 10px;
 }
 
 
@@ -96,9 +133,74 @@ border: 1px solid black;
 width: 750px;
 height: 177px;
 margin-left: 15px;
+}
+
+
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 80px;
 
 }
+.titrediv {
+    border: 1px solid;
+    width: 749px;
+    height: 56px;
+    position: relative;
+    top: 51px;
 }
+.un {
+    position: relative;
+    left: 20px;
+    width: 200px;
+    height: 170px;
+}
+
+.deux {
+position: relative;
+left: 55px;
+top: 59px;
+width: 200px;
+height: 170px;
+}
+
+.trois {
+position: relative;
+left: 86px;
+}
+.quatre {
+position: relative;
+width: 200px;
+height: 170px;
+left: 20px;
+}
+
+.cinq {
+left: 50px;
+height: 170px;
+width: 200px;
+top: 68px;
+}
+
+
+.six {
+position: absolute;
+left: 485px;
+width: 200px;
+height: 170px;
+top: 429px;
+}
+
+.footerli {
+border: 1px solid;
+width: 745px;
+height: 46px;
+position: absolute;
+top: 680px;
+}
+}
+
 
 
 
@@ -114,9 +216,89 @@ margin-left: 15px;
 
 @media (min-width: 900px){
 
+.titre{
+width: 100%;
+height: 215px;	
+
+}
+
+.footerli{
+border: 1px solid;
+width: 100%;
+height: 62px;
+position: relative;
+top: 300px;
+
+}
+
+li {
+list-style-type: none;
+display: inline-block;
+margin-left: 256px;
+color: darkorange;
+
+}
+.titrediv {
+border: 1px solid;
+width: 100%;
+height: 94px;
+position: relative;
+top: 51px;
+}
+
+.un {
+position: relative;
+left: 20px;
+width: 270px;
+height: 220px;
+}
+.deux{
+position: relative;
+left: 55px;
+top: 59px;
+width: 270px;
+height: 220px;
+}
+
+.trois {
+position: relative;
+left: 86px;
+width: 270px;
+height: 202px;
+}
+.quatre {
+position: relative;
+width: 270px;
+height: 200px;
+left: 120px;
+top: 40px;
+}
+
+.cinq {
+height: 200px;
+width: 270px;
+top: 295px;
+position: relative;
+left: -289px;
+}
 
 
+.six {
+    position: absolute;
+    left: 485px;
+    width: 270px;
+    height: 220px;
+    top: 530px;
+}
 
+
+.footerli img{
+border: 1px solid;
+width: 100%;
+height: 34px;
+position: relative;
+right: 280px;
+}
 }
 
 
