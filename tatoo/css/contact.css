@@ -1,0 +1,60 @@
+img{
+margin-left: 3%;
+position: relative;
+width: 169px;
+height: 242px;
+}
+
+iframe{
+width: 270px;
+height: 270px;
+}
+
+
+
+
+
+@media (min-width: 750px){
+img{
+margin-left: 47%;
+position: relative;
+width: 280px;
+height: 335px;
+top: -358px;
+}
+
+iframe{
+width: 345px;
+height: 345px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 900px){
+img{
+margin-left: 36%;
+position: relative;
+width: 400px;
+height: 500px;
+top: -519px;
+}
+
+iframe{
+width: 500px;
+height: 500px;
+}
+}
+
+
