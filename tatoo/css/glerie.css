@@ -1,0 +1,144 @@
+h1{
+text-align: center;
+color: blue;
+width: 400px;
+}
+
+.un img{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.deux img{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;	
+}
+.trois img{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;	
+}
+.quatre img{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;	
+}
+.cinq img{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;	
+}
+html{
+  background: url(../img/fond.jpeg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */ 	
+}
+
+
+
+@media (min-width: 750px){
+ h1{
+text-align: center;
+color: blue;
+width: 100%;
+}
+
+
+.un img{
+width: 170px;
+height: 170px;
+margin-left: 50px;	
+}
+
+
+.deux img{
+width: 170px;
+height: 170px;
+margin-left: 50px;	
+}
+
+
+.trois img{
+	width: 170px;
+height: 170px;
+margin-left: 50px;
+}
+
+
+.quatre img{
+	width: 170px;
+height: 170px;
+margin-left: 50px;	
+}
+
+.cinq img{
+	width: 170px;
+height: 170px;
+margin-left: 50px;	
+}
+}
+
+
+
+
+
+
+
+
+@media (min-width: 900px){
+
+ h1{
+text-align: center;
+color: blue;
+width: 100%;
+}
+
+
+.un img{
+width: 270px;
+height: 270px;
+margin-left: 150px;	
+}
+
+
+.deux img{
+width: 270px;
+height: 270px;
+margin-left: 150px;	
+}
+
+
+.trois img{
+	width: 270px;
+height: 270px;
+margin-left: 150px;
+}
+
+
+.quatre img{
+	width: 270px;
+height: 270px;
+margin-left: 150px;	
+}
+
+.cinq img{
+	width: 270px;
+height: 270px;
+margin-left: 150px;	
+}
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
